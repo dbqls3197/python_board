@@ -111,7 +111,7 @@ def register():
         if manager.insert_user(username, email, password):
             return '''
                 <script>
-                    alert('회원가입 성공!');
+                    alert('회원가입 성공!12');
                     window.location.href = '/login';
                 </script>
             '''
