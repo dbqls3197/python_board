@@ -45,7 +45,7 @@ def add_post():
             session['message_type'] = 'success'
             return redirect('/')
         else:
-            session['message'] = '게시글 추가 실패.'
+            session['message'] = '게시글 추가 실패12.'
             session['message_type'] = 'danger'
             return '게시글 추가 실패', 400
 
