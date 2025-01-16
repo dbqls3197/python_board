@@ -4,6 +4,7 @@ import mysql.connector
 from datetime import datetime
 from models import DBManager
 
+# 플라스크 정의
 app = Flask(__name__)
 app.secret_key = '1234'
 app.config['UPLOAD_FOLDER'] = os.path.join(app.root_path,'static','uploads')
